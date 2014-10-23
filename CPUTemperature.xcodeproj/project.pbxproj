@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2BF599B19F8B04C003FE1F5 /* StatusItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BF599A19F8B04C003FE1F5 /* StatusItemView.m */; };
+		C2E4850119E9038A00E985F4 /* statusGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = C2E484FB19E9038A00E985F4 /* statusGreen.png */; };
+		C2E4850219E9038A00E985F4 /* statusGreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2E484FC19E9038A00E985F4 /* statusGreen@2x.png */; };
+		C2E4850319E9038A00E985F4 /* statusOrange.png in Resources */ = {isa = PBXBuildFile; fileRef = C2E484FD19E9038A00E985F4 /* statusOrange.png */; };
+		C2E4850419E9038A00E985F4 /* statusOrange@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2E484FE19E9038A00E985F4 /* statusOrange@2x.png */; };
+		C2E4850519E9038A00E985F4 /* statusRed.png in Resources */ = {isa = PBXBuildFile; fileRef = C2E484FF19E9038A00E985F4 /* statusRed.png */; };
+		C2E4850619E9038A00E985F4 /* statusRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2E4850019E9038A00E985F4 /* statusRed@2x.png */; };
+		C2EC408419E754FF00926F11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EC408319E754FF00926F11 /* main.m */; };
+		C2EC408719E754FF00926F11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EC408619E754FF00926F11 /* AppDelegate.m */; };
+		C2EC408919E754FF00926F11 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2EC408819E754FF00926F11 /* Images.xcassets */; };
+		C2EC408C19E754FF00926F11 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2EC408A19E754FF00926F11 /* MainMenu.xib */; };
+		C2EC409819E754FF00926F11 /* CPUTemperatureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EC409719E754FF00926F11 /* CPUTemperatureTests.m */; };
+		C2EC40A419E7555300926F11 /* IconAbout.png in Resources */ = {isa = PBXBuildFile; fileRef = C2EC40A219E7555300926F11 /* IconAbout.png */; };
+		C2EC40AA19E7556D00926F11 /* AppNameAboutPanel.png in Resources */ = {isa = PBXBuildFile; fileRef = C2EC40A919E7556D00926F11 /* AppNameAboutPanel.png */; };
+		C2EC40AE19E7559700926F11 /* smc.c in Sources */ = {isa = PBXBuildFile; fileRef = C2EC40AC19E7559700926F11 /* smc.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2EC409219E754FF00926F11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2EC407619E754FF00926F11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2EC407D19E754FF00926F11;
+			remoteInfo = CPUTemperature;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2BF599919F8B04C003FE1F5 /* StatusItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusItemView.h; sourceTree = "<group>"; };
+		C2BF599A19F8B04C003FE1F5 /* StatusItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusItemView.m; sourceTree = "<group>"; };
+		C2E484FB19E9038A00E985F4 /* statusGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusGreen.png; sourceTree = "<group>"; };
+		C2E484FC19E9038A00E985F4 /* statusGreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "statusGreen@2x.png"; sourceTree = "<group>"; };
+		C2E484FD19E9038A00E985F4 /* statusOrange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusOrange.png; sourceTree = "<group>"; };
+		C2E484FE19E9038A00E985F4 /* statusOrange@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "statusOrange@2x.png"; sourceTree = "<group>"; };
+		C2E484FF19E9038A00E985F4 /* statusRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusRed.png; sourceTree = "<group>"; };
+		C2E4850019E9038A00E985F4 /* statusRed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "statusRed@2x.png"; sourceTree = "<group>"; };
+		C2EC407E19E754FF00926F11 /* CPUTemperature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPUTemperature.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2EC408219E754FF00926F11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2EC408319E754FF00926F11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2EC408519E754FF00926F11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C2EC408619E754FF00926F11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C2EC408819E754FF00926F11 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C2EC408B19E754FF00926F11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C2EC409119E754FF00926F11 /* CPUTemperatureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CPUTemperatureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2EC409619E754FF00926F11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2EC409719E754FF00926F11 /* CPUTemperatureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPUTemperatureTests.m; sourceTree = "<group>"; };
+		C2EC40A219E7555300926F11 /* IconAbout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconAbout.png; sourceTree = "<group>"; };
+		C2EC40A919E7556D00926F11 /* AppNameAboutPanel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppNameAboutPanel.png; sourceTree = "<group>"; };
+		C2EC40AC19E7559700926F11 /* smc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = smc.c; sourceTree = "<group>"; };
+		C2EC40AD19E7559700926F11 /* smc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smc.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2EC407B19E754FF00926F11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2EC408E19E754FF00926F11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2EC407519E754FF00926F11 = {
+			isa = PBXGroup;
+			children = (
+				C2EC408019E754FF00926F11 /* CPUTemperature */,
+				C2EC409419E754FF00926F11 /* CPUTemperatureTests */,
+				C2EC407F19E754FF00926F11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2EC407F19E754FF00926F11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2EC407E19E754FF00926F11 /* CPUTemperature.app */,
+				C2EC409119E754FF00926F11 /* CPUTemperatureTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2EC408019E754FF00926F11 /* CPUTemperature */ = {
+			isa = PBXGroup;
+			children = (
+				C2EC40AF19E755A000926F11 /* SMC */,
+				C2EC40AB19E7557700926F11 /* ImageAssets */,
+				C2EC408519E754FF00926F11 /* AppDelegate.h */,
+				C2EC408619E754FF00926F11 /* AppDelegate.m */,
+				C2BF599919F8B04C003FE1F5 /* StatusItemView.h */,
+				C2BF599A19F8B04C003FE1F5 /* StatusItemView.m */,
+				C2EC408819E754FF00926F11 /* Images.xcassets */,
+				C2EC408A19E754FF00926F11 /* MainMenu.xib */,
+				C2EC408119E754FF00926F11 /* Supporting Files */,
+			);
+			path = CPUTemperature;
+			sourceTree = "<group>";
+		};
+		C2EC408119E754FF00926F11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2EC408219E754FF00926F11 /* Info.plist */,
+				C2EC408319E754FF00926F11 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2EC409419E754FF00926F11 /* CPUTemperatureTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2EC409719E754FF00926F11 /* CPUTemperatureTests.m */,
+				C2EC409519E754FF00926F11 /* Supporting Files */,
+			);
+			path = CPUTemperatureTests;
+			sourceTree = "<group>";
+		};
+		C2EC409519E754FF00926F11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2EC409619E754FF00926F11 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2EC40AB19E7557700926F11 /* ImageAssets */ = {
+			isa = PBXGroup;
+			children = (
+				C2E484FB19E9038A00E985F4 /* statusGreen.png */,
+				C2E484FC19E9038A00E985F4 /* statusGreen@2x.png */,
+				C2E484FD19E9038A00E985F4 /* statusOrange.png */,
+				C2E484FE19E9038A00E985F4 /* statusOrange@2x.png */,
+				C2E484FF19E9038A00E985F4 /* statusRed.png */,
+				C2E4850019E9038A00E985F4 /* statusRed@2x.png */,
+				C2EC40A919E7556D00926F11 /* AppNameAboutPanel.png */,
+				C2EC40A219E7555300926F11 /* IconAbout.png */,
+			);
+			name = ImageAssets;
+			sourceTree = "<group>";
+		};
+		C2EC40AF19E755A000926F11 /* SMC */ = {
+			isa = PBXGroup;
+			children = (
+				C2EC40AC19E7559700926F11 /* smc.c */,
+				C2EC40AD19E7559700926F11 /* smc.h */,
+			);
+			name = SMC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2EC407D19E754FF00926F11 /* CPUTemperature */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2EC409B19E754FF00926F11 /* Build configuration list for PBXNativeTarget "CPUTemperature" */;
+			buildPhases = (
+				C2EC407A19E754FF00926F11 /* Sources */,
+				C2EC407B19E754FF00926F11 /* Frameworks */,
+				C2EC407C19E754FF00926F11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CPUTemperature;
+			productName = CPUTemperature;
+			productReference = C2EC407E19E754FF00926F11 /* CPUTemperature.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2EC409019E754FF00926F11 /* CPUTemperatureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2EC409E19E754FF00926F11 /* Build configuration list for PBXNativeTarget "CPUTemperatureTests" */;
+			buildPhases = (
+				C2EC408D19E754FF00926F11 /* Sources */,
+				C2EC408E19E754FF00926F11 /* Frameworks */,
+				C2EC408F19E754FF00926F11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2EC409319E754FF00926F11 /* PBXTargetDependency */,
+			);
+			name = CPUTemperatureTests;
+			productName = CPUTemperatureTests;
+			productReference = C2EC409119E754FF00926F11 /* CPUTemperatureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2EC407619E754FF00926F11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Gudapati Naga Venkata Chaitanya";
+				TargetAttributes = {
+					C2EC407D19E754FF00926F11 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					C2EC409019E754FF00926F11 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = C2EC407D19E754FF00926F11;
+					};
+				};
+			};
+			buildConfigurationList = C2EC407919E754FF00926F11 /* Build configuration list for PBXProject "CPUTemperature" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2EC407519E754FF00926F11;
+			productRefGroup = C2EC407F19E754FF00926F11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2EC407D19E754FF00926F11 /* CPUTemperature */,
+				C2EC409019E754FF00926F11 /* CPUTemperatureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2EC407C19E754FF00926F11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E4850219E9038A00E985F4 /* statusGreen@2x.png in Resources */,
+				C2E4850419E9038A00E985F4 /* statusOrange@2x.png in Resources */,
+				C2E4850519E9038A00E985F4 /* statusRed.png in Resources */,
+				C2EC40A419E7555300926F11 /* IconAbout.png in Resources */,
+				C2EC40AA19E7556D00926F11 /* AppNameAboutPanel.png in Resources */,
+				C2EC408919E754FF00926F11 /* Images.xcassets in Resources */,
+				C2E4850619E9038A00E985F4 /* statusRed@2x.png in Resources */,
+				C2EC408C19E754FF00926F11 /* MainMenu.xib in Resources */,
+				C2E4850319E9038A00E985F4 /* statusOrange.png in Resources */,
+				C2E4850119E9038A00E985F4 /* statusGreen.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2EC408F19E754FF00926F11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2EC407A19E754FF00926F11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2EC40AE19E7559700926F11 /* smc.c in Sources */,
+				C2BF599B19F8B04C003FE1F5 /* StatusItemView.m in Sources */,
+				C2EC408719E754FF00926F11 /* AppDelegate.m in Sources */,
+				C2EC408419E754FF00926F11 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2EC408D19E754FF00926F11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2EC409819E754FF00926F11 /* CPUTemperatureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2EC409319E754FF00926F11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2EC407D19E754FF00926F11 /* CPUTemperature */;
+			targetProxy = C2EC409219E754FF00926F11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2EC408A19E754FF00926F11 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2EC408B19E754FF00926F11 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2EC409919E754FF00926F11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C2EC409A19E754FF00926F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C2EC409C19E754FF00926F11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CPUTemperature/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C2EC409D19E754FF00926F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CPUTemperature/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C2EC409F19E754FF00926F11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CPUTemperatureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CPUTemperature.app/Contents/MacOS/CPUTemperature";
+			};
+			name = Debug;
+		};
+		C2EC40A019E754FF00926F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CPUTemperatureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CPUTemperature.app/Contents/MacOS/CPUTemperature";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2EC407919E754FF00926F11 /* Build configuration list for PBXProject "CPUTemperature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2EC409919E754FF00926F11 /* Debug */,
+				C2EC409A19E754FF00926F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2EC409B19E754FF00926F11 /* Build configuration list for PBXNativeTarget "CPUTemperature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2EC409C19E754FF00926F11 /* Debug */,
+				C2EC409D19E754FF00926F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2EC409E19E754FF00926F11 /* Build configuration list for PBXNativeTarget "CPUTemperatureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2EC409F19E754FF00926F11 /* Debug */,
+				C2EC40A019E754FF00926F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2EC407619E754FF00926F11 /* Project object */;
+}
