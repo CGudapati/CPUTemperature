@@ -64,10 +64,11 @@
         NSSize imageSize = [greenImage size];
         NSRect msgRect = NSMakeRect(0, 0, self.msgSize.width, self.msgSize.height);
         NSRect imageRect = NSMakeRect(0, 0, imageSize.width, imageSize.height);
-        msgRect.origin.x = ([self frame].size.width - self.msgSize.width) / 2.0 + imageSize.width/3.0;
+        msgRect.origin.x = ([self frame].size.width - self.msgSize.width) / 2.0 + imageSize.width/1.5;
         msgRect.origin.y = ([self frame].size.height - self.msgSize.height) / 2.0;
-        imageRect.origin.x = 2.0;
-        imageRect.origin.y = ([self frame].size.height - imageSize.height) / 2.0;
+        imageRect.origin.x = 5.0;
+        imageRect.origin.y = (imageSize.height) / 2.0;
+
         
         [text drawInRect:msgRect withAttributes:msgAttrs];
         [greenImage drawInRect:imageRect];
@@ -99,10 +100,10 @@
         NSSize imageSize = [orangeImage size];
         NSRect msgRect = NSMakeRect(0, 0, self.msgSize.width, self.msgSize.height);
         NSRect imageRect = NSMakeRect(0, 0, imageSize.width, imageSize.height);
-        msgRect.origin.x = ([self frame].size.width - self.msgSize.width) / 2.0 + imageSize.width/3.0;
+        msgRect.origin.x = ([self frame].size.width - self.msgSize.width) / 2.0 + imageSize.width/1.5;
         msgRect.origin.y = ([self frame].size.height - self.msgSize.height) / 2.0;
-        imageRect.origin.x = 2.0;
-        imageRect.origin.y = ([self frame].size.height - imageSize.height) / 2.0;
+        imageRect.origin.x = 5.0;
+        imageRect.origin.y = (imageSize.height) / 2.0;
         
         [text drawInRect:msgRect withAttributes:msgAttrs];
         [orangeImage drawInRect:imageRect];
@@ -133,10 +134,10 @@
         NSSize imageSize = [redImage size];
         NSRect msgRect = NSMakeRect(0, 0, self.msgSize.width, self.msgSize.height);
         NSRect imageRect = NSMakeRect(0, 0, imageSize.width, imageSize.height);
-        msgRect.origin.x = ([self frame].size.width - self.msgSize.width) / 2.0 + imageSize.width/3.0;
+        msgRect.origin.x = ([self frame].size.width - self.msgSize.width) / 2.0 + imageSize.width/1.5;
         msgRect.origin.y = ([self frame].size.height - self.msgSize.height) / 2.0;
-        imageRect.origin.x = 2.0;
-        imageRect.origin.y = imageSize.height/ 2.0;
+        imageRect.origin.x = 5.0;
+        imageRect.origin.y = (imageSize.height) / 2.0;
         [text drawInRect:msgRect withAttributes:msgAttrs];
         [redImage drawInRect:imageRect];
     }

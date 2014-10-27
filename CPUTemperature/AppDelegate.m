@@ -37,7 +37,7 @@
     SMCClose();
     self.temperatureString = [NSString stringWithFormat:@"%0.1f°C", self.temperature];
     NSLog(@"The teps are %@", self.temperatureString);
-    float width = 70;
+    float width = 65;
     float height = [[NSStatusBar systemStatusBar] thickness];
     NSRect viewFrame = NSMakeRect(0, 0, width, height);
     [self.statusItem setView:[[StatusItemView alloc] initWithFrame:viewFrame controller:self]];

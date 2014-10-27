@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D9481080-1A5B-43C2-BAA2-2B20AE48A804</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CPUTemperature</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DC8E9A5A2925DCA59FE8D4C0A334AEF79E08A8CB</key>
+		<string>https://github.com/CGudapati/CPUTemperature.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CPUTemperature.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DC8E9A5A2925DCA59FE8D4C0A334AEF79E08A8CB</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/CGudapati/CPUTemperature.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DC8E9A5A2925DCA59FE8D4C0A334AEF79E08A8CB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DC8E9A5A2925DCA59FE8D4C0A334AEF79E08A8CB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CPUTemperature</string>
+		</dict>
+	</array>
+</dict>
+</plist>
